@@ -28,7 +28,7 @@ Vaccine-inspired defense mechanisms that enhance system robustness against attac
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-|      | Multi-Agent Security Tax: Trading Off Security and Collaboration Capabilities in Multi-Agent Systems |       |       |      |
+|      | Multi-Agent Security Tax: Trading Off Security and Collaboration Capabilities in Multi-Agent Systems |    arXiv   |   [link](https://arxiv.org/pdf/2502.19145)     |   [code](https://arxiv.org/pdf/github.com/apartresearch/prompt-worms) |
 
 ## Framework Designs
 
