@@ -28,7 +28,7 @@ Vaccine-inspired defense mechanisms that enhance system robustness against attac
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-|      | Multi-Agent Security Tax: Trading Off Security and Collaboration Capabilities in Multi-Agent Systems |    arXiv   |   [link](https://arxiv.org/pdf/2502.19145)     |   [code](https://arxiv.org/pdf/github.com/apartresearch/prompt-worms) |
+|   2025.6   | Multi-Agent Security Tax: Trading Off Security and Collaboration Capabilities in Multi-Agent Systems |    arXiv   |   [link](https://arxiv.org/pdf/2502.19145)     |   [code](https://arxiv.org/pdf/github.com/apartresearch/prompt-worms) |
 
 ## Framework Designs
 
@@ -37,21 +37,21 @@ Defense frameworks that operate without requiring attack annotations or prior kn
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-|      | BlindGuard: Safeguarding LLM-based Multi-Agent Systems under Unknown Attacks |       |       |      |
+|   2025.8   | BlindGuard: Safeguarding LLM-based Multi-Agent Systems under Unknown Attacks |    arXiv   |    [link](https://arxiv.org/pdf/2508.08127)   |   [code](https://github.com/MR9812/BlindGuard)   |
 
 ### Supervised Defense
 Defense frameworks that utilize supervision and topology analysis for security.
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-|      | G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems |       |       |      |
+|   2025.2   | G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems |   arXiv    |       [link](https://arxiv.org/pdf/2502.11127)   |   [code](https://github.com/wslong20/G-safeguard) |
 
 ### Topological Security Framework
 Frameworks exploring the relationship between network topology and system security.
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-|      | NetSafe: Exploring the Topological Safety of Multi-agent Network |       |       |      |
+|   2024.10   | NetSafe: Exploring the Topological Safety of Multi-agent Network |     arXiv    |       [link](https://arxiv.org/abs/2410.15686)   |   [code](https://anonymous.4open.science/r/NetSafe-B726)  |
 
 ## Attack Strategies
 
@@ -60,11 +60,11 @@ Attack methods targeting communication channels between agents in multi-agent sy
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-|      | Red-Teaming LLM Multi-Agent Systems via Communication Attacks |       |       |      |
+|   2025.6   | Red-Teaming LLM Multi-Agent Systems via Communication Attacks |      arXiv    |       [link](https://arxiv.org/pdf/2502.14847)|    |
 
 ### Knowledge Contamination Attacks
 Attacks that manipulate or contaminate the knowledge within multi-agent systems.
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-|      | Flooding Spread of Manipulated Knowledge in LLM-Based Multi-Agent Communities |       |       |      |
+|      | Flooding Spread of Manipulated Knowledge in LLM-Based Multi-Agent Communities |    arXiv    |       [link](https://arxiv.org/pdf/2407.07791)  |   [code](https://github.com/Jometeorie/KnowledgeSpread) |
