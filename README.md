@@ -21,7 +21,7 @@ This section focuses on defense mechanisms that consider the psychological state
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-|      | PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety |       |       |      |
+|   2024.8   | PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety |  arXiv   |   [link](https://arxiv.org/abs/2401.11880)   |  [code](https://github.com/AI4Good24/PsySafe.)   |
 
 ### Vaccine-style Defense
 Vaccine-inspired defense mechanisms that enhance system robustness against attacks while minimizing impact on collaboration capabilities.
