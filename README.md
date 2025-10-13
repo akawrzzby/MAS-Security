@@ -67,4 +67,4 @@ Attacks that manipulate or contaminate the knowledge within multi-agent systems.
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-|      | Flooding Spread of Manipulated Knowledge in LLM-Based Multi-Agent Communities |    arXiv    |       [link](https://arxiv.org/pdf/2407.07791)  |   [code](https://github.com/Jometeorie/KnowledgeSpread) |
+|   2024.7   | Flooding Spread of Manipulated Knowledge in LLM-Based Multi-Agent Communities |    arXiv    |       [link](https://arxiv.org/pdf/2407.07791)  |   [code](https://github.com/Jometeorie/KnowledgeSpread) |
