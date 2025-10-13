@@ -1,47 +1,70 @@
-# MAS-Security
-Some papers on MAS Security
+# MAS Security Papers
+A collection of papers on Multi-Agent System (MAS) security, covering defense mechanisms, framework designs, and attack strategies.
 
 ## Bookmarks
 
-* [**Model Preparation**](#model-preparation)
-  * [Data Preprocessing](#data-preprocessing)
-  * [Model Training Tricks](#model-training-tricks)
-  * [Model Quantization](#model-quantization)
-* [**Deployment Tools**](#deployment-tools)
-  * [Containerization (Docker)](#containerization-docker)
-  * [Serverless Deployment](#serverless-deployment)
-  * [Edge Deployment](#edge-deployment)
-* [**Monitoring & Maintenance**](#monitoring--maintenance)
-  * [Performance Monitoring](#performance-monitoring)
-  * [Model Retraining](#model-retraining)
-  * [Error Handling](#error-handling)
+* [**Defense Mechanisms**](#defense-mechanisms)
+  * [Psychological Security](#psychological-security)
+  * [Vaccine-style Defense](#vaccine-style-defense)
+* [**Framework Designs**](#framework-designs)
+  * [Unsupervised Defense](#unsupervised-defense)
+  * [Supervised Defense](#supervised-defense)
+  * [Topological Security Framework](#topological-security-framework)
+* [**Attack Strategies**](#attack-strategies)
+  * [Communication Link Attacks](#communication-link-attacks)
+  * [Knowledge Contamination Attacks](#knowledge-contamination-attacks)
 
-## Model Preparation
+## Defense Mechanisms
 
-### Data Preprocessing
+### Psychological Security
+This section focuses on defense mechanisms that consider the psychological states of agents in multi-agent systems.
 
-Effective data preprocessing ensures AI models receive clean, well-structured input. Below are tools and methods for streamlining this step:
+| Time | Title | Venue | Paper | Code |
+|------|-------|-------|-------|------|
+|      | PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety |       |       |      |
 
-| Tool/Method    | Description                                                  | Resource Link                              |
-| -------------- | ------------------------------------------------------------ | ------------------------------------------ |
-| SmartTrimmer   | Efficiently reduces redundant features while preserving key information. | [link](https://example.com/smarttrimmer)   |
-| AutoNormalizer | Automatically applies normalization to multi-modal data (images, text, etc.). | [link](https://example.com/autonormalizer) |
-| FederatedPrep  | Enables data preprocessing in federated learning setups with privacy guards. | [link](https://example.com/federatedprep)  |
+### Vaccine-style Defense
+Vaccine-inspired defense mechanisms that enhance system robustness against attacks while minimizing impact on collaboration capabilities.
 
-### Model Quantization
-Quantization reduces model size and accelerates inference by lowering parameter precision. Popular techniques:
-| Technique            | Use Case                                                     | Tutorial Link                                   |
-| -------------------- | ------------------------------------------------------------ | ----------------------------------------------- |
-| Post-Training Quant  | Applies quantization after model training (easy to integrate). | [link](https://example.com/post-training-quant) |
-| Quant-Aware Training | Trains models with quantization in mind (better accuracy for low precision). | [link](https://example.com/quant-aware-train)   |
-| Dynamic Quantization | Adjusts precision during inference based on input.           | [link](https://example.com/dynamic-quant)       |
+| Time | Title | Venue | Paper | Code |
+|------|-------|-------|-------|------|
+|      | Multi-Agent Security Tax: Trading Off Security and Collaboration Capabilities in Multi-Agent Systems |       |       |      |
 
-## Deployment Tools
-### Containerization (Docker)
-Containerization packages models with dependencies, ensuring consistency across environments. Popular Docker setups for AI:
+## Framework Designs
 
-| Image Name        | Use Case                                                  | Dockerfile Repository                          |
-| ----------------- | --------------------------------------------------------- | ---------------------------------------------- |
-| `torch-serve-ai`  | Serves PyTorch models via TorchServe.                     | [link](https://example.com/torch-serve-docker) |
-| `tf-lite-runtime` | Runs TensorFlow Lite models (optimized for edge devices). | [link](https://example.com/tf-lite-docker)     |
-| `fastapi-ml-api`  | Wraps ML models into RESTful APIs with FastAPI.           | [link](https://example.com/fastapi-ml-docker)  |
+### Unsupervised Defense
+Defense frameworks that operate without requiring attack annotations or prior knowledge.
+
+| Time | Title | Venue | Paper | Code |
+|------|-------|-------|-------|------|
+|      | BlindGuard: Safeguarding LLM-based Multi-Agent Systems under Unknown Attacks |       |       |      |
+
+### Supervised Defense
+Defense frameworks that utilize supervision and topology analysis for security.
+
+| Time | Title | Venue | Paper | Code |
+|------|-------|-------|-------|------|
+|      | G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems |       |       |      |
+
+### Topological Security Framework
+Frameworks exploring the relationship between network topology and system security.
+
+| Time | Title | Venue | Paper | Code |
+|------|-------|-------|-------|------|
+|      | NetSafe: Exploring the Topological Safety of Multi-agent Network |       |       |      |
+
+## Attack Strategies
+
+### Communication Link Attacks
+Attack methods targeting communication channels between agents in multi-agent systems.
+
+| Time | Title | Venue | Paper | Code |
+|------|-------|-------|-------|------|
+|      | Red-Teaming LLM Multi-Agent Systems via Communication Attacks |       |       |      |
+
+### Knowledge Contamination Attacks
+Attacks that manipulate or contaminate the knowledge within multi-agent systems.
+
+| Time | Title | Venue | Paper | Code |
+|------|-------|-------|-------|------|
+|      | Flooding Spread of Manipulated Knowledge in LLM-Based Multi-Agent Communities |       |       |      |
