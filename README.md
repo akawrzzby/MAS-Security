@@ -38,7 +38,7 @@ This section focuses on defense mechanisms that enforce strict permission bounda
 |------|-------|-------|-------|------|
 | 2025.5 | MASTER: Multi-Agent Security Through Exploration of Roles and Topological Structures | arXiv | [link](https://arxiv.org/pdf/2505.18572) | - |
 | 2025.2 | RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage | arXiv | [link](https://arxiv.org/pdf/2502.08966) | - |
-| 2025.9 | GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation | arXiv | [link](https://arxiv.org/pdf/2509.XXXX) | - |
+| 2025.9 | GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation | arXiv | [link](https://arxiv.org/pdf/2509.10018) | - |
 
 ## Attack Strategies
 ### Communication Link Attacks
