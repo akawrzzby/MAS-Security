@@ -6,9 +6,10 @@ A collection of papers on Multi-Agent System (MAS) security, covering defense me
   * [Topology-Aware Defense](#topology-aware-defense)
   * [Psychological and Behavioral Analysis Defense](#psychological-and-behavioral-analysis-defense)
   * [Access Control Defense](#access-control-defense)
-* [**Attack Strategies**](#attack-strategies)
-  * [Communication Link Attacks](#communication-link-attacks)
-  * [Knowledge Contamination Attacks](#knowledge-contamination-attacks)
+* [**MAS Threats (Attack Classification)**](#mas-threats-attack-classification)
+  * [Attack Through User Interaction](#attack-through-user-interaction)
+  * [Attack Through Agent](#attack-through-agent)
+  * [Attack Through External Sources](#attack-through-external-sources)
 
 ## System Level Defense for MAS
 System-Level Defense operates as the governance mechanism within MAS, abstracting the system into a collaborative network to maintain the resilience and controllability of the multi-agent society from the perspective of communication patterns, role dynamics, global consensus and resource access.
@@ -38,22 +39,34 @@ This section focuses on defense mechanisms that enforce strict permission bounda
 |------|-------|-------|-------|------|
 | 2025.5 | MASTER: Multi-Agent Security Through Exploration of Roles and Topological Structures | arXiv | [link](https://arxiv.org/pdf/2505.18572) | - |
 | 2025.2 | RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage | arXiv | [link](https://arxiv.org/pdf/2502.08966) | - |
-| 2025.9 | GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation | arXiv | [link](https://arxiv.org/pdf/2509.10018) | - |
+| 2025.9 | GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation | arXiv | [link](https://arxiv.org/pdf/2509.10018) | [code](https://anonymous.4open.science/r/GAMA/README.md) |
 
-## Attack Strategies
-### Communication Link Attacks
-Attack methods targeting communication channels between agents in multi-agent systems.
+## MAS Threats (Attack Classification)
+MAS threats are categorized by **transmission route** (from the paper's Section 5), focusing exclusively on multi-agent-specific attacks (excluding single-agent-only attacks). These attacks exploit inter-agent communication, collaboration mechanisms, and system-level vulnerabilities to compromise collective behavior.
 
-| Time | Title | Venue | Paper | Code |
-|------|-------|-------|-------|------|
-| 2025.6 | Red-Teaming LLM Multi-Agent Systems via Communication Attacks | ACL 2025 Findings | [link](https://arxiv.org/pdf/2502.14847) | - |
-| 2025.8 | Attack the Messages, Not the Agents: A Multi-Round Adaptive Stealthy Tampering Framework for LLM-MAS | arXiv | [link](https://arxiv.org/pdf/2508.03125) | - |
-
-### Knowledge Contamination Attacks
-Attacks that manipulate or contaminate the knowledge within multi-agent systems.
+### Attack Through User Interaction
+Attacks initiated via user input, exploiting multi-agent communication to propagate adversarial prompts across the system.
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-| 2024.7 | Flooding Spread of Manipulated Knowledge in LLM-Based Multi-Agent Communities | arXiv | [link](https://arxiv.org/pdf/2407.07791) | [code](https://github.com/Jometeorie/KnowledgeSpread) |
-| 2024 | AgentPoison: Red-Teaming LLM Agents via Poisoning Memory or Knowledge Bases | NeurIPS 2024 | [link](https://arxiv.org/pdf/2406.XXXX) | - |
-| 2025.10 | Collaborative Shadows: Distributed Backdoor Attacks in LLM-based Multi-Agent Systems | arXiv | [link](https://arxiv.org/pdf/2510.11246) | - |
+| 2024 | Continuous Optimization with Discrete Efficient Search (CODES): LLM-based Multi-Agent System Attack | Second Conference on Language Modeling | [link](https://arxiv.org/abs/2408.XXXX) | - |
+| 2025 | CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models | arXiv | [link](https://arxiv.org/pdf/2502.14529) | - |
+| 2025 | Agents under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks | ACL 2025 | [link](https://arxiv.org/pdf/2504.00218) | - |
+
+### Attack Through Agent
+Attacks propagating internally via compromised agents, including malicious agent injection and communication hijacking.
+
+| Time | Title | Venue | Paper | Code |
+|------|-------|-------|-------|------|
+| 2024 | Flooding Spread of Manipulated Knowledge in LLM-Based Multi-Agent Communities | arXiv | [link](https://arxiv.org/pdf/2407.07791) | [code](https://github.com/Jometeorie/KnowledgeSpread) |
+| 2025 | Red-Teaming LLM Multi-Agent Systems via Communication Attacks | ACL 2025 Findings | [link](https://arxiv.org/pdf/2502.14847) | - |
+| 2025 | Attack the Messages, Not the Agents: A Multi-Round Adaptive Stealthy Tampering Framework for LLM-MAS | arXiv | [link](https://arxiv.org/pdf/2508.03125) | - |
+
+### Attack Through External Sources
+Attacks exploiting external tools, memory modules, or peripherals to contaminate multi-agent collaboration.
+
+| Time | Title | Venue | Paper | Code |
+|------|-------|-------|-------|------|
+| 2024 | AgentPoison: Red-Teaming LLM Agents via Poisoning Memory or Knowledge Bases | NeurIPS 2024 | [link](https://arxiv.org/pdf/2407.12784) | [code](https://github.com/BillChan226/AgentPoison) |
+| 2025 | Collaborative Shadows: Distributed Backdoor Attacks in LLM-based Multi-Agent Systems | arXiv | [link](https://arxiv.org/pdf/2510.11246) | - |
+| 2025 | Multi-Agent Systems Execute Arbitrary Malicious Code | arXiv | [link](https://arxiv.org/pdf/2503.12188) | - |
