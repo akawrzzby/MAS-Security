@@ -30,7 +30,7 @@ This section focuses on defense mechanisms that conduct continuous audit of subt
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
 | 2024.8 | PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety | ACL 2024 | [link](https://arxiv.org/abs/2401.11880) | [code](https://github.com/AI4Good24/PsySafe) |
-| 2025.7 | AgentXposed: Modeling and Detecting Intention-Hiding Malicious Agents in LLM-based Multi-Agent Systems | arXiv | [link](https://arxiv.org/pdf/2507.04724) | - |
+| 2025.7 | AgentXposed: Modeling and Detecting Intention-Hiding Malicious Agents in LLM-based Multi-Agent Systems | arXiv | [link](https://arxiv.org/pdf/2507.04724) | [code](https://anonymous.4open.science/r/AgentXposed-F814) |
 
 ### Access Control Defense
 This section focuses on defense mechanisms that enforce strict permission boundaries (Zero Trust) for agent's data access and tool usage to prevent unauthorized resource access.
@@ -41,16 +41,16 @@ This section focuses on defense mechanisms that enforce strict permission bounda
 | 2025.2 | RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage | arXiv | [link](https://arxiv.org/pdf/2502.08966) | - |
 | 2025.9 | GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation | arXiv | [link](https://arxiv.org/pdf/2509.10018) | [code](https://anonymous.4open.science/r/GAMA/README.md) |
 
-## MAS Threats (Attack Classification)
-MAS threats are categorized by **transmission route** (from the paper's Section 5), focusing exclusively on multi-agent-specific attacks (excluding single-agent-only attacks). These attacks exploit inter-agent communication, collaboration mechanisms, and system-level vulnerabilities to compromise collective behavior.
+## MAS Threats
+MAS threats are categorized by **transmission route** , focusing exclusively on multi-agent-specific attacks (excluding single-agent-only attacks). These attacks exploit inter-agent communication, collaboration mechanisms, and system-level vulnerabilities to compromise collective behavior.
 
 ### Attack Through User Interaction
 Attacks initiated via user input, exploiting multi-agent communication to propagate adversarial prompts across the system.
 
 | Time | Title | Venue | Paper | Code |
 |------|-------|-------|-------|------|
-| 2024 | Continuous Optimization with Discrete Efficient Search (CODES): LLM-based Multi-Agent System Attack | Second Conference on Language Modeling | [link](https://arxiv.org/abs/2408.XXXX) | - |
-| 2025 | CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models | arXiv | [link](https://arxiv.org/pdf/2502.14529) | - |
+| 2024 | LLM-based Multi-Agents System Attack via Continuous Optimization with Discrete Efficient Search | COLM 2025 | [link](https://openreview.net/pdf?id=ED5diyzc1C) | - |
+| 2025 | CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models | arXiv | [link](https://arxiv.org/pdf/2502.14529) | [code](https://github.com/zhrli324/Corba) |
 | 2025 | Agents under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks | ACL 2025 | [link](https://arxiv.org/pdf/2504.00218) | - |
 
 ### Attack Through Agent
